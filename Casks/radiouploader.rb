@@ -1,9 +1,9 @@
 cask "radiouploader" do
   arch arm: "-arm64"
 
-  version "1.5.4"
-  sha256 arm:   "6de5e9dac19d6cad5a3c9b326be41b5472eb2110f08a3d3a828d6963d8c76e69",
-         intel: "4a7e0ed187ee27fc4bb880fa200c769054a7becd8e23aa87c11f9a4ff0722926"
+  version "1.5.5"
+  sha256 arm:   "81fb04bae15735acda105e86d98dc4395d0fb678079adbaeb410e2ca2012d869",
+         intel: "11f312cc876df56d1e2e3c502977296896bd35e9a213b391eb8bb53e3b142e09"
 
   url "https://github.com/gmadevs/Radiouploader/releases/download/v#{version}/Radiouploader-#{version}#{arch}.dmg"
   name "Radiouploader"
